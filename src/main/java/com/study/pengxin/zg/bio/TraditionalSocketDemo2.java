@@ -19,6 +19,7 @@ public class TraditionalSocketDemo2{
 			// 获取socket套接字
 			// accept()阻塞点
 			final Socket socket = serverSocket.accept();
+			//-------
 			System.out.println("有新客户端连接上来了...");
 			new Thread(new Runnable() {
 				public void run() {
